@@ -53,9 +53,9 @@
         </div>
 
         <div class="form-btn">
-        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#signUpModal"
             data-bs-whatever="@mdo">Sign Up</button>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -139,6 +139,15 @@
                         <h1 class="modal-title fs-5" id="exampleModalLabel">Log In</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
+                      <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                          <label for="email" class="form-label">Email:</label>
+                          <input type="text" class="form-control" id="email" required>
+                          <div class="valid-feedback">
+                            Email accepted
+                          </div>
+                        </div>
+                      </form>
             </div>
            
         </div>
