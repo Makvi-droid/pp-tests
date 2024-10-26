@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="Landpage.css">
+    <title>Home Test</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -122,15 +122,23 @@
                    
                   </div>
                 </div>
-              </div>
-            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal"
-            data-bs-whatever="@mdo">Log In</button>
+            </div>
+            <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#logInModal">Log in</button>
+            <button class="btn btn-primary" type="button" id="cartBtn" data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
+                class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+            <div class="modal fade" id="logInModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Log In</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+            </div>
            
         </div>
 
-        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
-                class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i></button>
+       
 
 
     </nav>
@@ -375,7 +383,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.slim.js"
         integrity="sha256-UgvvN8vBkgO0luPSUl2s8TIlOSYRoGFAX4jlCIm9Adc=" crossorigin="anonymous"></script>
 
-    <script src="Landpage.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

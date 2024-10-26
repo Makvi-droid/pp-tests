@@ -15,6 +15,10 @@ body{
     width: 5vw;
 }
 
+#cartBtn{
+    transition: 0.5s;
+}
+
 #search-bar{
     border-radius: 30px;
     border: 1px solid black;
@@ -28,7 +32,7 @@ body{
 .form-btn{
     gap: 1.6em;
     position: relative;
-    right: 1em;
+    right: 5em;
 }
 
 .form-btn .btn{
