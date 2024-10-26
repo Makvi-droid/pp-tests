@@ -15,8 +15,8 @@ body{
     width: 5vw;
 }
 
-#cartBtn{
-    transition: 0.5s;
+#offcanvasWithBothOptions{
+    transition: 0.3s;
 }
 
 #search-bar{
