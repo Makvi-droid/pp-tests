@@ -1,9 +1,9 @@
 :root{
-    --font: 'Roboto', 'Titillium Web', 'Ubuntu', 'Work Sans', 'Roboto Mono';
+    --font: 'Roboto', 'Roboto Mono','Montserrat', 'Open Sans', 'Poppins','Titillium Web', 'Ubuntu', 'Work Sans';
 }
 
 body{
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/bg.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('img/contact1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,6 +54,19 @@ body{
     font-weight: bold;
 }
 
+#cartBtn{
+    background-color: #db9600;
+    transition: 0.3s;
+}
+
+#cartBtn:hover{
+    background-color: #664b00;
+}
+
+#logInModal{
+    transition: 0.3s;
+}
+
 .pagination{
     position: relative;
     top: 2em;
@@ -68,7 +81,7 @@ body{
 }
 
 .nav-item .nav-link:hover{
-    color: #fcc347;
+    color: #664b00;
 }
 
 .pagination a{
@@ -96,5 +109,36 @@ body{
 
 .next{
     background-color: black;
+}
+
+.fab{
+    transition: 0.3s;
+}
+
+#contact-h2 {
+    color: #db9600;
+    font-family: 'Bebas Neue', var(--font);
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+#contactForm button {
+    background-color: #de9904;
+    border: none;
+    color: white;
+}
+
+#contactForm button:hover {
+    background-color: #664b00;
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        max-width: 33.33%; 
+    }
+
+    .col-md-8 {
+        max-width: 66.66%; 
+    }
 }
 
